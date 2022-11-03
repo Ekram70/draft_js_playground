@@ -1,14 +1,33 @@
 .m_editor_wrapper {
   width: 500px;
-  border: 10px solid red;
+  border: 1px solid #454f5b;
 }
 
-.m_editor {
-  border: 5px solid blue;
+.rdw-editor-toolbar {
+  background-color: #454f5b !important;
 }
 
-.m_editor_toolbar {
-  border: 5px solid gray;
+.rdw-option-active {
+  box-shadow: none !important;
+  background-color: #42da5f !important;
+}
+
+.rdw-option-wrapper:hover {
+  box-shadow: none !important;
+  transform: scale(0.9);
+}
+
+.rdw-option-wrapper {
+  border: none !important;
+}
+
+.m_dropdowns {
+  margin: 0px 4px 6px;
+}
+
+.m_output {
+  width: 500px;
+  height: 350px;
 }
 
 /* Editor Style Override */
